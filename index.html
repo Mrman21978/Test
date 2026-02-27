@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angry AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Anger Bar -->
+<div class="anger-container">
+  <div class="anger-label">ANGER</div>
+  <div class="bar-wrapper">
+    <div class="max-line"></div>
+    <div id="angerBar"></div>
+  </div>
+  <div class="anger-percent" id="angerPercent">85%</div>
+</div>
+
+<!-- Game Area -->
+<div class="game">
+  <h1>😡 Angry AI</h1>
+  <div id="chatLog" class="chat-log"></div>
+  <div class="input-area">
+    <input type="text" id="userInput" placeholder="Say something funny..." autocomplete="off">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+  <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
